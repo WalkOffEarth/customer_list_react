@@ -1,0 +1,12 @@
+.customer {
+  padding: 10px 30px 10px;
+}
+
+.customer:hover {
+  background-color: #5cbdb9 !important;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #5cbdb9 !important;
+}

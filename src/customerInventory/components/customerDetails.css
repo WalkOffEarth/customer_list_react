@@ -1,0 +1,22 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  min-height: 0px;
+  padding: 0 20px;
+}
+
+.address {
+  margin: 0px 0 10px;
+  padding: 10px;
+  background-color: #5cbdb9;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

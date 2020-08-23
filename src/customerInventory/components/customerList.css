@@ -1,0 +1,29 @@
+.listContainer {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0px;
+    list-style: none;
+}
+
+header.listHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 70px;
+    font-weight: 900;
+    color: #5cbdb9;
+    border-bottom: 1px solid #5cbdb9;
+}
+
+.listContainer li:nth-child(even) {
+    background: #ebf6f5
+}
+
+.listContainer li:nth-child(odd) {
+    background: #fff
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 15px;
+}
